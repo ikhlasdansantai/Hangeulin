@@ -1,12 +1,14 @@
 import "./App.css";
-import { useState } from "react";
-import Navbar from "../components/Navbar/Navbar";
+import Services from "./components/Services/Services";
+import Header from "./containers/Header/Header";
+import Main from "./containers/Main/Main";
 
 function App() {
   return (
     <>
-      <div id="root app">
-        <Navbar />
+      <div id="containers" className="min-[1400px]:w-[90rem] mx-auto p-standart h-[2000000000px]">
+        <Header />
+        <Main />
       </div>
     </>
   );
