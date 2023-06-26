@@ -1,0 +1,9 @@
+.bg-tl {
+  background-color: rgba(244, 148, 177, 0.33);
+  box-shadow: 0 0 20px 70px rgba(244, 148, 177, 0.3);
+}
+@media (min-width: 1400px) {
+  .bg-tl {
+    box-shadow: 0 0 20px 250px rgba(244, 148, 177, 0.3);
+  }
+}
