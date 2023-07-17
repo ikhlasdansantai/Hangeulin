@@ -1,5 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar";
-import building from "../../assets/building.svg";
+import building from "../../assets/header-img.svg";
 import "./header.css";
 import Button from "../../components/Button/Button";
 

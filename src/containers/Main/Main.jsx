@@ -1,5 +1,5 @@
-import Price from "../../components/Price/Price";
-import Services from "../../components/Services/Services";
+import Price from "../../components/section/Price/Price";
+import Services from "../../components/section/Services/Services";
 
 const Main = () => {
   return (
