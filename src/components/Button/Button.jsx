@@ -19,4 +19,9 @@ const Button = ({ children, color, size }) => {
   );
 };
 
+Button.defaultProps = {
+  colors: "primary",
+  size: "medium",
+};
+
 export default Button;
