@@ -32,6 +32,15 @@ const Navbar = () => {
     };
   }, []);
 
+  const spanElements = [];
+
+  for (let i = 0; i < 2; i++) {
+    if (i === 1) {
+      spanElements.push(<span key={i} className="block w-[65%] ml-auto h-[3px] bg-black rounded-sm"></span>);
+    }
+    spanElements.push(<span key={spanElements} className="block w-full h-[3px] bg-black rounded-sm"></span>);
+  }
+
   return (
     <nav className={`py-[1.5rem] px-[1.5rem] fixed max-[640px]:bottom-0 left-0 right-0 w-full min-[640px]:top-0 max-[640px]:bg-white ${isScrolled ? "bg-white" : ""}`}>
       <div className="wrappers min-[1400px]:w-[90rem] mx-auto">
@@ -58,11 +67,9 @@ const Navbar = () => {
           <h2 className="font-bold text-primaryBlack text-3xl">
             Hangeul<span className="text-secondaryYellow">in</span>
           </h2>
-          <label className="fries-menu flex flex-col justify-between w-[30px] h-[25px] relative">
-            <input id="checkbox" type="checkbox" className="scale-125 opacity-0 absolute top-0 bottom-0 left-0 right-0 z-100" onChange={(e) => handleChange(e)} />
-            <span className="block w-full h-[3px] bg-black rounded-sm"></span>
-            <span className="block w-[65%] ml-auto h-[3px] bg-black rounded-sm"></span>
-            <span className="block w-full h-[3px] bg-black rounded-sm"></span>
+          <label className="fries-menu flex flex-col justify-between w-[30px] h-[25px] relative ">
+            <input id="checkbox" type="checkbox" className="scale-125 opacity-0 absolute top-0 bottom-0 left-0 right-0 z-100 cursor-pointer" onChange={(e) => handleChange(e)} />
+            {spanElements}
           </label>
         </div>
         <ul id="nav-mobile" ref={myRef} className={`-z-20 ${(isChecked, "bg-white")}`}>
