@@ -3,7 +3,7 @@ import Services from "../../components/section/Services/Services";
 
 const Main = () => {
   return (
-    <main>
+    <main className="p-standart">
       <Services />
       <Price />
     </main>
