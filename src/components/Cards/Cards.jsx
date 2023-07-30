@@ -2,7 +2,7 @@ const Cards = ({ title, img }) => {
   return (
     <>
       <div className="card">
-        <figure className="bg-secondaryYellow p-standart w-[5rem]">
+        <figure className="bg-thirdYellow p-standart w-[5rem]">
           <img src={img} alt={`${img} pict`} className="block max-w-full" />
         </figure>
         <div className="card-titles">
