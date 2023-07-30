@@ -42,7 +42,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`py-[1.5rem] px-[1.5rem] fixed max-[640px]:bottom-0 left-0 right-0 w-full min-[640px]:top-0 max-[640px]:bg-white ${isScrolled ? "bg-white" : ""}`}>
+    <nav className={`py-[1.5rem] px-[1.5rem] fixed z-50 max-[640px]:bottom-0 left-0 right-0 w-full min-[640px]:top-0 max-[640px]:bg-white ${isScrolled ? "bg-white" : ""}`}>
       <div className="wrappers min-[1400px]:w-[90rem] mx-auto">
         <div className="desktop hidden min-[640px]:flex justify-between items-center">
           <h2 className="font-bold text-primaryBlack text-3xl">
