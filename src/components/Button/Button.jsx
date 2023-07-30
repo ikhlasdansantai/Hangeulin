@@ -1,10 +1,10 @@
 import { cn } from "../../../utils";
 
-const Button = ({ children, color, size }) => {
+const Button = ({ children, color, size, className }) => {
   const variants = {
     colors: {
       primary: "bg-gradient-to-br from-thirdYellow to-fourYellow",
-      info: "g-gradient-to-br from-secondaryBlue to-white",
+      info: "bg-gradient-to-br from-secondaryBlue to-thirdBlue",
     },
     size: {
       big: "",
@@ -14,7 +14,7 @@ const Button = ({ children, color, size }) => {
 
   return (
     <>
-      <button className={cn("font-semibold", "rounded-[5px]", variants.colors[color], variants.size[size])}>{children}</button>
+      <button className={cn("font-semibold", "rounded-[5px]", className, variants.colors[color], variants.size[size])}>{children}</button>
     </>
   );
 };
