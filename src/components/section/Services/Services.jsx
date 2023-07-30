@@ -26,7 +26,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services">
+    <section id="services" className="mb-40">
       <Title title={"Layanan Kami Dalam Membantu Anda"} className="lg:w-[27ch]" />
       <div className="services-contents flex flex-col lg:flex-row justify-between mt-10 gap-10 mi-[1362px]:gap-0">
         <figure className="w-full lg:w-[50%] flex">
