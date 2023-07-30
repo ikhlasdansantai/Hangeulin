@@ -15,6 +15,8 @@ export default {
         thirdYellow: "#F4C237",
         fourYellow: "#E1A90C",
         secondCream: "#FEF7E5",
+        secondaryBlue: "#056AAD",
+        thirdBlue: "#045285",
       },
       padding: {
         standart: "1rem 1.5rem",
