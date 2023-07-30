@@ -28,11 +28,11 @@ const Services = () => {
   return (
     <section id="services">
       <Title title={"Layanan Kami Dalam Membantu Anda"} className="lg:w-[27ch]" />
-      <div className="services-contents flex flex-col lg:flex-row justify-between mt-10">
+      <div className="services-contents flex flex-col lg:flex-row justify-between mt-10 gap-10 mi-[1362px]:gap-0">
         <figure className="w-full lg:w-[50%] flex">
-          <img src={userImg} alt={`${userImg} pict`} className="block max-w-full max-[640px]:mx-auto" />
+          <img src={userImg} alt={`${userImg} pict`} className="block max-w-full max-[640px]:mx-auto " />
         </figure>
-        <div className="right-container lg:w-[50%] grid grid-cols-2  gap-5 justify-between">
+        <div className="right-container lg:w-[50%] grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-5 justify-between">
           {cards.map((card, index) => {
             return (
               <div className="card" key={index}>
