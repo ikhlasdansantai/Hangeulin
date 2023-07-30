@@ -17,6 +17,9 @@ export default {
         secondCream: "#FEF7E5",
         secondaryBlue: "#056AAD",
         thirdBlue: "#045285",
+        pink: "#EC7589",
+        creamClr: "#FAE3A4",
+        paragraphClr: "rgba(0, 0, 0, 0.8)",
       },
       padding: {
         standart: "1rem 1.5rem",
