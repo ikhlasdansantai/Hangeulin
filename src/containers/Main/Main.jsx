@@ -1,6 +1,7 @@
 import Price from "../../components/section/Price/Price";
 import Services from "../../components/section/Services/Services";
 import Testimonials from "../../components/section/Testimonials/Testimonials";
+import JoinWithUs from "../../components/section/joinWithUs/JoinWithUs";
 
 const Main = () => {
   return (
@@ -8,6 +9,7 @@ const Main = () => {
       <Services />
       <Price />
       <Testimonials />
+      <JoinWithUs />
     </main>
   );
 };
