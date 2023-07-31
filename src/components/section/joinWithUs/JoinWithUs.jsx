@@ -11,7 +11,7 @@ export default function JoinWithUs() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo error quia sequi velit ex, veritatis enim sed voluptatum esse dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, sequi.
         </p>
       </div>
-      <Button children={"Gabung Sekarang"} color={"info"} className={"text-white"} />
+      <Button children={"Gabung Sekarang"} color={"info"} className={"mr-auto mt-10 lg:m-0 text-white"} />
     </section>
   );
 }
