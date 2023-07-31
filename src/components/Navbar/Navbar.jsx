@@ -60,7 +60,7 @@ const Navbar = () => {
             <button type="submit">Daftar</button>
           </div>
           <div className="button-wrappers flex min-[810px]:hidden gap-5">
-            <Icon icon="ep:user-filled" className="" />
+            <Icon icon="ep:user-filled" className="" width="100%" height="100%" />
           </div>
         </div>
         <div className="mobile flex justify-between items-center min-[640px]:hidden bg-white">
