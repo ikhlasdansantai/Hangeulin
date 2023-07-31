@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    body {
+      position: relative;
+    }
+    body::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      min-height: 100vh;
+      background-image: url("https://source.unsplash.com/random/1920x1080/?space");
+      filter: brightness(40%);
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -2;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10rem;
+      margin: auto;
+      text-align: center;
+    }
+    nav {
+      /* opacity: 0; */
+      margin: auto;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      justify-content: space-between !important;
+      background-color: white;
+      padding: 2rem;
+    }
+    ul {
+      list-style: none;
+      width: 15%;
+      font-weight: 700;
+      justify-content: space-between !important;
+    }
+    .titles {
+      margin-top: 5rem;
+      color: white;
+    }
+    .titles h2 {
+      font-size: 4rem;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="flex">
+          <h2>INI NAVBAR KU</h2>
+
+          <ul class="flex">
+            <li>satu</li>
+            <li>dua</li>
+            <li>tiga</li>
+            <li>empat</li>
+          </ul>
+        </nav>
+        <div class="titles">
+          <h2>Hello World</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro dicta delectus tempore est necessitatibus quas natus quidem officia dolorum non.</p>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
