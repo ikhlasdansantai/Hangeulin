@@ -6,7 +6,7 @@ import Main from "./containers/Main/Main";
 function App() {
   return (
     <>
-      <div id="containers" className="min-[1400px]:w-[90rem] mx-auto  h-[2000000000px]">
+      <div id="containers" className="min-[1400px]:w-[90rem] mx-auto">
         <Header />
         <Main />
         <Footer />
