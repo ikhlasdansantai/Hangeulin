@@ -22,4 +22,4 @@ https://ikhlasdansantai.github.io/Hangeulin/
 
 ## Credits
 - [Muhammad Fauzan Alkhairi (UI Designer)](https://www.figma.com/@muhammadfauzana)
-- [Navual ( Challenge Owner )](https://twitter.com/mhdnauvalazhar)
+- [Nauval ( Challenge Owner )](https://twitter.com/mhdnauvalazhar)
